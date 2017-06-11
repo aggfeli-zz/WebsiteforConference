@@ -1,0 +1,32 @@
+	body {
+		background-color: #ffffd8;
+	}
+	
+	#SponsorCarousel .carousel-indicators {
+        position: relative;
+		bottom: -220px;
+	}
+
+	#SponsorCarousel .carousel-indicators li {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 10px;
+		text-indent: 0;
+		cursor: pointer;
+		border: none;
+		border-radius: 50%;
+		background-color: 	#8080ff/*#f9f9f9 #934600*/ /*#999*/;
+		box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	
+	#SponsorCarousel .carousel-indicators .active {
+		width: 12px;
+		height: 12px;
+		margin: 10px;
+		background-color: #0033cc/*#444*/;
+	}
+
+	#SponsorCarousel .carousel-control {
+		color: #0033cc;/*#4CAF50;*/
+	}
